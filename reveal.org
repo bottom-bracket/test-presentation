@@ -1,0 +1,35 @@
+#+STARTUP: overview
+
+* Slide
+
+* another slide
+** a subslide
+** another subslide
+
+* more slides
+
+* a slide with a table
+#+caption:  a table
+| column 1 | column 2 |
+|----------+----------|
+| stuff    |        1 |
+| bicycles |        2 |
+| tofu     |        3 |
+|  coffee  |        4 |
+
+** subslide with code
+
+#+NAME: cqi1Pi
+#+begin_src ipython :exports both 
+  def by2(a):
+      print(f"{a}*2 = {a*2}")
+  by2(3)    
+  by2(6)    
+  by2(2)    
+#+end_src
+
+* slide with an image
+ [[file:~/Pictures/Short%20Trips/Around%20Grenoble/2018-06_Weekend%20Ardeche/2018-06-30/SAM_0012.JPG]] 
+* The end
+
+The end

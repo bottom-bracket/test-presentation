@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>A Sample Presentation</title>
+<meta name="author" content="(Philip Heringlake)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="/home/philip/Documents/Coding/reveal.js/css/reveal.css"/>
+
+<link rel="stylesheet" href="/home/philip/Documents/Coding/reveal.js/css/theme/sky.css" id="theme"/>
+
+
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = '/home/philip/Documents/Coding/reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">A Sample Presentation</h1><h2 class="author">Philip Heringlake</h2><p class="date">Created: 2019-10-16 Mi 10:50</p>
+</section>
+<section id="table-of-contents">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-org233a176">1. Slide</a></li>
+<li><a href="#/slide-org1d572b2">2. another slide</a>
+<ul>
+<li><a href="#/slide-org38d488b">2.1. a subslide</a></li>
+<li><a href="#/slide-org855b6bd">2.2. another subslide</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org299fed6">3. more slides</a></li>
+<li><a href="#/slide-orga2996e9">4. a slide with a table</a>
+<ul>
+<li><a href="#/slide-orgb7bb1ab">4.1. subslide with code</a></li>
+</ul>
+</li>
+<li><a href="#/slide-org416c347">5. slide with an image</a></li>
+<li><a href="#/slide-org71ebf4b">6. The end</a></li>
+</ul>
+</div>
+</div>
+</section>
+<section>
+<section id="slide-org233a176">
+<h2 id="org233a176"><span class="section-number-2">1</span> Slide</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-org1d572b2">
+<h2 id="org1d572b2"><span class="section-number-2">2</span> another slide</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+</section>
+<section id="slide-org38d488b">
+<h3 id="org38d488b"><span class="section-number-3">2.1</span> a subslide</h3>
+</section>
+<section id="slide-org855b6bd">
+<h3 id="org855b6bd"><span class="section-number-3">2.2</span> another subslide</h3>
+
+</section>
+</section>
+<section>
+<section id="slide-org299fed6">
+<h2 id="org299fed6"><span class="section-number-2">3</span> more slides</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-orga2996e9">
+<h2 id="orga2996e9"><span class="section-number-2">4</span> a slide with a table</h2>
+<ul>
+<li class="fragment roll-in">list item 1</li>
+<li class="fragment roll-in"><p>
+list item 2
+</p>
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+<caption class="t-above"><span class="table-number">Table 1:</span> a table</caption>
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-right" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">column 1</th>
+<th scope="col" class="org-right">column 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">stuff</td>
+<td class="org-right">1</td>
+</tr>
+
+<tr>
+<td class="org-left">bicycles</td>
+<td class="org-right">2</td>
+</tr>
+
+<tr>
+<td class="org-left">tofu</td>
+<td class="org-right">3</td>
+</tr>
+
+<tr>
+<td class="org-left">coffee</td>
+<td class="org-right">4</td>
+</tr>
+</tbody>
+</table></li>
+
+</ul>
+
+</section>
+<section id="slide-orgb7bb1ab">
+<h3 id="orgb7bb1ab"><span class="section-number-3">4.1</span> subslide with code</h3>
+<div class="org-src-container">
+
+<pre  class="src src-ipython" id="cqi1Pi"><code trim>  <span style="color: #8ac6f2; font-weight: bold;">def</span> <span style="color: #cae682;">by2</span><span style="color: #8c8c8c;">(</span>a<span style="color: #8c8c8c;">)</span>:
+      <span style="color: #8ac6f2; font-weight: bold;">print</span><span style="color: #8c8c8c;">(</span>f<span style="color: #95e454;">"{a}*2 = {a*2}"</span><span style="color: #8c8c8c;">)</span>
+  by2<span style="color: #8c8c8c;">(</span><span style="color: #e5786d;">3</span><span style="color: #8c8c8c;">)</span>    
+  by2<span style="color: #8c8c8c;">(</span><span style="color: #e5786d;">6</span><span style="color: #8c8c8c;">)</span>    
+  by2<span style="color: #8c8c8c;">(</span><span style="color: #e5786d;">2</span><span style="color: #8c8c8c;">)</span>    
+</code></pre>
+</div>
+
+<pre class="example">
+3*2 = 6
+6*2 = 12
+2*2 = 4
+</pre>
+
+</section>
+</section>
+<section>
+<section id="slide-org416c347">
+<h2 id="org416c347"><span class="section-number-2">5</span> slide with an image</h2>
+
+<div class="figure">
+<p><img src="file:///home/philip/Pictures/Short Trips/Around Grenoble/2018-06_Weekend Ardeche/2018-06-30/SAM_0012.JPG" alt="SAM_0012.JPG" /> 
+</p>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org71ebf4b">
+<h2 id="org71ebf4b"><span class="section-number-2">6</span> The end</h2>
+<p>
+The end
+</p>
+</section>
+</section>
+</div>
+</div>
+<script src="/home/philip/Documents/Coding/reveal.js/js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: '/home/philip/Documents/Coding/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: '/home/philip/Documents/Coding/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '/home/philip/Documents/Coding/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: '/home/philip/Documents/Coding/reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: '/home/philip/Documents/Coding/reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+});
+</script>
+</body>
+</html>
